@@ -30,67 +30,67 @@ read -p "请输入选项的数字（比如1.5）: " choice
 case $choice in
   0.4)
     echo "正在下载0.4版本"
-    wget https://soft.lnmp.com/lnmp/lnmp0.4.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp0.4.tar.gz -P /file
     ;;
   0.5)
     echo "正在下载0.5版本"
-    wget https://soft.lnmp.com/lnmp/lnmp0.5.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp0.5-full.tar.gz -P /file
     ;;
   0.6)
     echo "正在下载0.6版本"
-    wget https://soft.lnmp.com/lnmp/lnmp0.6.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp0.6-full.tar.gz -P /file
     ;;
   0.7)
     echo "正在下载0.7版本"
-    wget https://soft.lnmp.com/lnmp/lnmp0.7.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp0.7-full.tar.gz -P /file
     ;;
   0.8)
     echo "正在下载0.8版本"
-    wget https://soft.lnmp.com/lnmp/lnmp0.8.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp0.8-full.tar.gz -P /file
     ;;
   0.9)
     echo "正在下载0.9版本"
-    wget https://soft.lnmp.com/lnmp/lnmp0.9.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp0.9-full.tar.gz -P /file
     ;;
   1.0)
     echo "正在下载1.0版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.0.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp1.0-full.tar.gz -P /file
     ;;
   1.1)
     echo "正在下载1.1版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.1.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp1.1-full.tar.gz -P /file
     ;;
   1.2)
     echo "正在下载1.2版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.2.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp1.2-full.tar.gz -P /file
     ;;
   1.3)
     echo "正在下载1.3版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.3.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp1.3-full.tar.gz -P /file
     ;;
   1.4)
     echo "正在下载1.4版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.4.tar.gz -P /file
+    wget http://soft1.vpser.net/lnmp/lnmp1.4-full.tar.gz -P /file
     ;;
   1.5)
     echo "正在下载1.5版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.5.tar.gz -P /file
+    wget http://soft.lnmp.com/lnmp/lnmp1.5-full.tar.gz -P /file
     ;;
   1.6)
     echo "正在下载1.6版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.6.tar.gz -P /file
+    wget https://soft.lnmp.com/lnmp/lnmp1.6-full.tar.gz -P /file
     ;;
   1.7)
     echo "正在下载1.7版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.7.tar.gz -P /file
+    wget https://soft.lnmp.com/lnmp/lnmp1.7-full.tar.gz -P /file
     ;;
   1.8)
     echo "正在下载1.8版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.8.tar.gz -P /file
+    wget https://soft.lnmp.com/lnmp/lnmp1.8-full.tar.gz -P /file
     ;;
   1.9)
     echo "正在下载1.9版本"
-    wget https://soft.lnmp.com/lnmp/lnmp1.9.tar.gz -P /file
+    wget https://soft.lnmp.com/lnmp/lnmp1.9-full.tar.gz -P /file
     ;;
   *)
     echo "无效的版本号"
